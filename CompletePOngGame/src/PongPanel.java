@@ -1,3 +1,4 @@
+//added comment
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Font;
@@ -16,8 +17,8 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
 	
 	private final static Color BACKGROUND_COLOUR = Color.BLACK;
 	private final static int TIMER_DELAY = 5;
-	private final static int BALL_MOVEMENT_SPEED = 1;
-	private final static int POINTS_TO_WIN = 3;
+	private final static int BALL_MOVEMENT_SPEED = 1; //change ball speed to 3 
+	private final static int POINTS_TO_WIN = 5; //points to win is now 5
 	private final static int SCORE_TEXT_X = 100;
 	private final static int SCORE_TEXT_Y = 100;
 	private final static int SCORE_FONT_SIZE = 50;
